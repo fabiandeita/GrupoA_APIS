@@ -1,0 +1,26 @@
+package matematicas;
+
+public class calculadora {
+// atributos
+	
+	float valor1, valor2;
+	
+	public calculadora(float valorcito1, float valorcito2) {
+		
+		this.valor1 = valorcito1;
+		this.valor1 = valorcito2;
+	}
+	
+	public static void main(String[] args) {
+
+	}
+	
+	
+	public static float suma(float valorcito1, float valorcito2) {
+		float resultado = valorcito1 + valorcito2;
+		return resultado;
+	}
+	
+
+
+}
