@@ -1,0 +1,25 @@
+package matematicas;
+
+public class Calculadora {
+	// atributos
+	float value1;
+	float value2;
+
+	public Calculadora(float value1, float value2) {
+		this.value1 = value1;
+		this.value2 = value2;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("El resultado de la suma de los valores es " + Suma(1,2));
+		System.out.println("El resultado de la resta de los valores es " + Resta(10,2));
+		System.out.println("El resultado de la división de los valores es " + Divi(4,2));
+		System.out.println("El resultado de la multiplicación de los valores es " + Multi(2,5));
+		System.out.println(Suma(1,2)*Multi(2,5));
+		
+	}
+
+	
+	
+	
+}
