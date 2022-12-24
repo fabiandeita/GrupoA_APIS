@@ -1,0 +1,45 @@
+package matematicas;
+
+public class calculadora {
+// atributos
+	
+	float valor1 = 4, valor2 = 8;
+	
+	public calculadora(float valorcito1, float valorcito2) {
+		
+		this.valor1 = valorcito1;
+		this.valor1 = valorcito2;
+	}
+	
+	public static void main(String[] args) {
+		float valor1 = 20;
+		float valor2 = 18;
+		
+		System.out.println("El resultado de la suma de los valores " + valor1 + " y " + valor2 + " es: " +  suma(valor1, valor2));
+		System.out.println("El resultado de la división de los valores " + valor1 + " y " + valor2 + " es: " +  division(valor1, valor2));
+		System.out.println("El resultado de la multiplicación de los valores " + valor1 + " y " + valor2 + " es: " +  multipicacion(valor1, valor2));
+		System.out.println("El resultado de la resta de los valores " + valor1 + " y " + valor2 + " es: " +   +  resta(valor1, valor2));
+
+	}
+	
+	public static float suma(float valorcito1, float valorcito2) {
+		float resultado = valorcito1 + valorcito2;
+		return resultado;
+	}
+	
+	public static float division(float valorcito1, float valorcito2) {
+		float resultado = valorcito1 / valorcito2;
+		return resultado;
+	}
+	
+	public static float multipicacion(float valorcito1, float valorcito2) {
+		float resultado = valorcito1 * valorcito2;
+		return resultado;
+	}
+	
+	public static float resta(float valorcito1, float valorcito2) {
+		float resultado = valorcito1 - valorcito2;
+		return resultado;
+	}
+
+}
