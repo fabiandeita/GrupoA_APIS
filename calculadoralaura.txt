@@ -1,0 +1,43 @@
+package matematicas;
+
+public class calculadora {
+	// atributos
+	float valor1;
+	float valor2;
+
+	public calculadora(float valorcito1, float valorcito2) {
+		this.valor1 = valorcito1;
+		this.valor2 = valorcito2;
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("resta: " + resta(10, 6));
+		System.out.println("suma: " + suma(10, 6));
+		System.out.println("multiplicacion: " + multiplicacion(10, 6));
+		System.out.println("division: " + division(10, 6));
+	}
+
+	public static float suma(float valor1, float valor2) {
+		return valor1 + valor2;
+
+	}
+
+	public static float multiplicacion(float valor1, float valor2) {
+		return valor1 * valor2;
+
+	}
+
+	public static float division(float valor1, float valor2) {
+		return valor1 / valor2;
+
+	}
+	public static float resta (float valor1, float valor2) {
+		return  valor1 - valor2;
+		
+	}
+
+	
+}
